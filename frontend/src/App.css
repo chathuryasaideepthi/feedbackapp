@@ -1,0 +1,43 @@
+/* Top Navigation */
+.topnav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  background-color: #4A90E2; /* Primary nav color */
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Logout button */
+.topnav .logout-btn {
+  background-color: #D9534F; /* Red color */
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.topnav .logout-btn:hover {
+  background-color: #C9302C; /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+.topnav .logout-btn:active {
+  transform: scale(0.98);
+}

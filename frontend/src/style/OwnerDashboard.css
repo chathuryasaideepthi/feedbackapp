@@ -1,0 +1,81 @@
+.owner-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #4A90E2;
+  margin-bottom: 15px;
+}
+
+.store-form-wrapper,
+.ratings-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.store-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s border-color;
+}
+
+.store-form input:focus {
+  border-color: #4A90E2;
+}
+
+.store-form button {
+  padding: 12px;
+  background-color: #4A90E2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s background-color;
+}
+
+.store-form button:hover {
+  background-color: #357ABD;
+}
+
+.ratings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ratings-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.rater-name {
+  font-weight: 500;
+}
+
+.rater-value {
+  color: #4A90E2;
+  font-weight: 600;
+}
+
+.no-ratings {
+  color: #888;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 50px 0;
+}

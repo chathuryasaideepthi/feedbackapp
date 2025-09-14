@@ -1,0 +1,128 @@
+/* General styles */
+body, div {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-dashboard {
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  color: #4A90E2;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #357ABD;
+  margin: 25px 0 10px;
+}
+
+/* Stats */
+div > div {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Forms */
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s border-color;
+}
+
+form input:focus {
+  border-color: #4A90E2;
+}
+
+form button {
+  padding: 12px 0;
+  background-color: #4A90E2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s background-color;
+}
+
+form button:hover {
+  background-color: #357ABD;
+}
+
+/* Tables */
+table.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table.simple-table th,
+table.simple-table td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+table.simple-table th {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+table.simple-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+table.simple-table button {
+  padding: 6px 12px;
+  background-color: #D9534F;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s background-color;
+}
+
+table.simple-table button:hover {
+  background-color: #C9302C;
+}
+
+/* Responsive layout for forms and tables */
+@media (min-width: 900px) {
+  .forms-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .tables-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .form-wrapper, .table-wrapper {
+    flex: 1 1 45%;
+  }
+}

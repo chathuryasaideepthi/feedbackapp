@@ -1,0 +1,27 @@
+.store-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.store-page h2 {
+  color: #4A90E2;
+  margin-bottom: 15px;
+}
+
+.store-page p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 50px 0;
+}
